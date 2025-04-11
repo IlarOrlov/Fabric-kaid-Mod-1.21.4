@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "kaid",
 	"version": "${version}",
-	"name": "KAID",
+	"name": "KAID - Kill All If Dead",
 	"description": "When someone dies, all his friends will support him in it ;)",
 	"authors": [
 		"Ilar!"
@@ -22,7 +22,7 @@
 		"kaid.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
+		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
