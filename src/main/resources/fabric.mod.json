@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "kaid",
+	"version": "${version}",
+	"name": "KAID",
+	"description": "When someone dies, all his friends will support him in it ;)",
+	"authors": [
+		"Ilar!"
+	],
+	"license": "MIT",
+	"icon": "assets/kaid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.errantwanderer.kaid.KAID"
+		],
+		"fabric-datagen": [
+			"net.errantwanderer.kaid.KAIDDataGenerator"
+		]
+	},
+	"mixins": [
+		"kaid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
